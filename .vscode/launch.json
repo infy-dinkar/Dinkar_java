@@ -1,0 +1,294 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch",
+            "request": "launch",
+            "mainClass": "Launch",
+            "projectName": "JavaPrograms_88eebca"
+        },
+        {
+            "type": "java",
+            "name": "NodeList",
+            "request": "launch",
+            "mainClass": "LinkedList.NodeList",
+            "projectName": "JavaPrograms_88eebca"
+        },
+        {
+            "type": "java",
+            "name": "MatrixMultiplication",
+            "request": "launch",
+            "mainClass": "MatrixMultiplication",
+            "projectName": "JavaPrograms_88eebca"
+        },
+        {
+            "type": "java",
+            "name": "MatrixPrintingInWaveForm",
+            "request": "launch",
+            "mainClass": "MatrixPrintingInWaveForm",
+            "projectName": "JavaPrograms_88eebca"
+        },
+        {
+            "type": "java",
+            "name": "Name",
+            "request": "launch",
+            "mainClass": "Name",
+            "projectName": "JavaPrograms_88eebca"
+        },
+        {
+            "type": "java",
+            "name": "Pattern12",
+            "request": "launch",
+            "mainClass": "Pattern12",
+            "projectName": "JavaPrograms_88eebca"
+        },
+        {
+            "type": "java",
+            "name": "Pattern13",
+            "request": "launch",
+            "mainClass": "Pattern13",
+            "projectName": "JavaPrograms_88eebca"
+        },
+        {
+            "type": "java",
+            "name": "Pattern14",
+            "request": "launch",
+            "mainClass": "Pattern14",
+            "projectName": "JavaPrograms_88eebca"
+        },
+        {
+            "type": "java",
+            "name": "Pattern15",
+            "request": "launch",
+            "mainClass": "Pattern15",
+            "projectName": "JavaPrograms_88eebca"
+        },
+        {
+            "type": "java",
+            "name": "Pattern16",
+            "request": "launch",
+            "mainClass": "Pattern16",
+            "projectName": "JavaPrograms_88eebca"
+        },
+        {
+            "type": "java",
+            "name": "Pattern17",
+            "request": "launch",
+            "mainClass": "Pattern17",
+            "projectName": "JavaPrograms_88eebca"
+        },
+        {
+            "type": "java",
+            "name": "Pattern18",
+            "request": "launch",
+            "mainClass": "Pattern18",
+            "projectName": "JavaPrograms_88eebca"
+        },
+        {
+            "type": "java",
+            "name": "Pattern19",
+            "request": "launch",
+            "mainClass": "Pattern19",
+            "projectName": "JavaPrograms_88eebca"
+        },
+        {
+            "type": "java",
+            "name": "Pattern20",
+            "request": "launch",
+            "mainClass": "Pattern20",
+            "projectName": "JavaPrograms_88eebca"
+        },
+        {
+            "type": "java",
+            "name": "Pattern21",
+            "request": "launch",
+            "mainClass": "Pattern21",
+            "projectName": "JavaPrograms_88eebca"
+        },
+        {
+            "type": "java",
+            "name": "Pattern22",
+            "request": "launch",
+            "mainClass": "Pattern22",
+            "projectName": "JavaPrograms_88eebca"
+        },
+        {
+            "type": "java",
+            "name": "Pattern23",
+            "request": "launch",
+            "mainClass": "Pattern23",
+            "projectName": "JavaPrograms_88eebca"
+        },
+        {
+            "type": "java",
+            "name": "Pattern24",
+            "request": "launch",
+            "mainClass": "Pattern24",
+            "projectName": "JavaPrograms_88eebca"
+        },
+        {
+            "type": "java",
+            "name": "Pattern25",
+            "request": "launch",
+            "mainClass": "Pattern25",
+            "projectName": "JavaPrograms_88eebca"
+        },
+        {
+            "type": "java",
+            "name": "Pattern26",
+            "request": "launch",
+            "mainClass": "Pattern26",
+            "projectName": "JavaPrograms_88eebca"
+        },
+        {
+            "type": "java",
+            "name": "Pattern27",
+            "request": "launch",
+            "mainClass": "Pattern27",
+            "projectName": "JavaPrograms_88eebca"
+        },
+        {
+            "type": "java",
+            "name": "Pattern28",
+            "request": "launch",
+            "mainClass": "Pattern28",
+            "projectName": "JavaPrograms_88eebca"
+        },
+        {
+            "type": "java",
+            "name": "Pattern29",
+            "request": "launch",
+            "mainClass": "Pattern29",
+            "projectName": "JavaPrograms_88eebca"
+        },
+        {
+            "type": "java",
+            "name": "Pattern30",
+            "request": "launch",
+            "mainClass": "Pattern30",
+            "projectName": "JavaPrograms_88eebca"
+        },
+        {
+            "type": "java",
+            "name": "Pattern31",
+            "request": "launch",
+            "mainClass": "Pattern31",
+            "projectName": "JavaPrograms_88eebca"
+        },
+        {
+            "type": "java",
+            "name": "Pattern32",
+            "request": "launch",
+            "mainClass": "Pattern32",
+            "projectName": "JavaPrograms_88eebca"
+        },
+        {
+            "type": "java",
+            "name": "Pattern33",
+            "request": "launch",
+            "mainClass": "Pattern33",
+            "projectName": "JavaPrograms_88eebca"
+        },
+        {
+            "type": "java",
+            "name": "Pattern34",
+            "request": "launch",
+            "mainClass": "Pattern34",
+            "projectName": "JavaPrograms_88eebca"
+        },
+        {
+            "type": "java",
+            "name": "Pattern35",
+            "request": "launch",
+            "mainClass": "Pattern35",
+            "projectName": "JavaPrograms_88eebca"
+        },
+        {
+            "type": "java",
+            "name": "Pattern36",
+            "request": "launch",
+            "mainClass": "Pattern36",
+            "projectName": "JavaPrograms_88eebca"
+        },
+        {
+            "type": "java",
+            "name": "Studentclass",
+            "request": "launch",
+            "mainClass": "PracticalOops.Studentclass",
+            "projectName": "JavaPrograms_88eebca"
+        },
+        {
+            "type": "java",
+            "name": "Rectangle",
+            "request": "launch",
+            "mainClass": "Rectangle",
+            "projectName": "JavaPrograms_88eebca"
+        },
+        {
+            "type": "java",
+            "name": "ReverseTriangle",
+            "request": "launch",
+            "mainClass": "ReverseTriangle",
+            "projectName": "JavaPrograms_88eebca"
+        },
+        {
+            "type": "java",
+            "name": "RotateMatrixBy90",
+            "request": "launch",
+            "mainClass": "RotateMatrixBy90",
+            "projectName": "JavaPrograms_88eebca"
+        },
+        {
+            "type": "java",
+            "name": "Rtriangle",
+            "request": "launch",
+            "mainClass": "Rtriangle",
+            "projectName": "JavaPrograms_88eebca"
+        },
+        {
+            "type": "java",
+            "name": "SquarePattern",
+            "request": "launch",
+            "mainClass": "SquarePattern",
+            "projectName": "JavaPrograms_88eebca"
+        },
+        {
+            "type": "java",
+            "name": "TransposeMatrix",
+            "request": "launch",
+            "mainClass": "TransposeMatrix",
+            "projectName": "JavaPrograms_88eebca"
+        },
+        {
+            "type": "java",
+            "name": "Triangle",
+            "request": "launch",
+            "mainClass": "Triangle",
+            "projectName": "JavaPrograms_88eebca"
+        },
+        {
+            "type": "java",
+            "name": "TwoTrianglesReversed",
+            "request": "launch",
+            "mainClass": "TwoTrianglesReversed",
+            "projectName": "JavaPrograms_88eebca"
+        },
+        {
+            "type": "java",
+            "name": "RotateMatrix90",
+            "request": "launch",
+            "mainClass": "leetcodeProblems.RotateMatrix90",
+            "projectName": "JavaPrograms_88eebca"
+        }
+    ]
+}
