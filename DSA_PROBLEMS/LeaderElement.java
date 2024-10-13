@@ -1,4 +1,4 @@
-package leetcodeProblems;
+package DSA_PROBLEMS;
 
 public class LeaderElement {
     public static void main(String[] args) {

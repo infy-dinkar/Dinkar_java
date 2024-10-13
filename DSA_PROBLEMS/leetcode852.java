@@ -1,3 +1,4 @@
+package DSA_PROBLEMS;
 class Solution {
     public int peakIndexInMountainArray(int[] arr) {
         int n=arr.length;

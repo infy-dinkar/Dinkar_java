@@ -1,4 +1,4 @@
-package leetcodeProblems;
+package DSA_PROBLEMS;
 
 public class leetcode31 {
     class Solution {
