@@ -2,9 +2,9 @@ package DSA_PROBLEMS;
 
 public class Print1toNwithoutUsingLoopGfg {
     class Solution{
-        static void printTillN(int N){
+        static void printtillN(int N){
             if (N==0) return;
-            printTillN(N-1);
+            printtillN(N-1);
             System.out.print(N+" ");
             
         }
