@@ -3,16 +3,16 @@ package DSA_PROBLEMS;
 public class ReverseLinkedListLeetcode206 {
     class Solution {
         public ListNode reverseList(ListNode head) {
-            ListNode rh=null;
+            ListNode reverseHead=null;
             while(head!=null){
                 ListNode temp=head;
                 head=head.next;
                 temp.next=null;
-                temp.next=rh;
-                rh=temp;
+                temp.next=reverseHead;
+                reverseHead=temp;
             }
     
-            return rh;
+            return reverseHead;
     
     
             
