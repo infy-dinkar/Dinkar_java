@@ -9,15 +9,15 @@ public class BinaryTreePostOrderTraversalLeetcode145 {
     class Solution {
     public List<Integer> postorderTraversal(TreeNode root) {
         
-        ArrayList<Integer> l=new ArrayList<>();
-        if(root==null) return l;
+        ArrayList<Integer> list=new ArrayList<>();
+        if(root==null) return list;
         
-        l.addAll( postorderTraversal(root.left));
+        list.addAll( postorderTraversal(root.left));
         
-        l.addAll(postorderTraversal(root.right));
-        l.add(root.val);
+        list.addAll(postorderTraversal(root.right));
+        list.add(root.val);
 
-        return l;
+        return list;
         
     }
 }
