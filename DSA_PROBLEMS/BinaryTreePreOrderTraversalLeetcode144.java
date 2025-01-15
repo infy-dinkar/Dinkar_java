@@ -8,12 +8,12 @@ import javax.swing.tree.TreeNode;
 public class BinaryTreePreOrderTraversalLeetcode144 {
     class Solution {
     public List<Integer> preorderTraversal(TreeNode root) {
-        ArrayList<Integer> list = new ArrayList<>();
-        if (root == null) return list;
-        list.add(root.val);
-        list.addAll(preorderTraversal(root.left)); 
-        list.addAll(preorderTraversal(root.right)); 
-        return list;
+        ArrayList<Integer> l = new ArrayList<>();
+        if (root == null) return l;
+        l.add(root.val);
+        l.addAll(preorderTraversal(root.left)); 
+        l.addAll(preorderTraversal(root.right)); 
+        return l;
     }
 }
     
