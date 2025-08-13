@@ -36,6 +36,5 @@ public class Leetcode503 {
         return res;
     }
 }
-
-    
+   
 }
