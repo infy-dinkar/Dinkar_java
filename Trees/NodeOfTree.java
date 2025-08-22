@@ -28,6 +28,8 @@ public class NodeOfTree {
         System.out.println(e.val);
         System.out.println(root.right.left.val);
         display(root);
+        int x=sum(root);
+        System.out.println(x);
     }    
 
       public static void display(Node a){
@@ -39,6 +41,15 @@ public class NodeOfTree {
         display(a.right);
 
       }
+
+      public static int sum(Node a){
+        if(a==null) return 0;
+        return a.val+sum(a.left)+sum(a.right) ;
+
+        
+      }
+
+      
 
 
 
