@@ -30,6 +30,8 @@ public class NodeOfTree {
         display(root);
         int x=sum(root);
         System.out.println(x);
+        int z=product(root);
+        System.out.println(z);
     }    
 
       public static void display(Node a){
@@ -49,7 +51,15 @@ public class NodeOfTree {
         
       }
 
-      
+      public static int product(Node a){
+        if(a==null){
+            return 1;
+        }
+
+        return ((a.val)*product(a.left)*product(a.right));
+      }
+
+
 
 
 
