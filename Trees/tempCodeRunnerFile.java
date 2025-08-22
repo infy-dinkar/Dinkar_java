@@ -26,24 +26,12 @@ public class NodeOfTree {
 
         b.left=e;
         System.out.println(e.val);
-        System.out.println(root.right.left.val);
-        display(root);
-    }    
-
-      public static void display(Node a){
-        if(a==null){
-            return;
-        }
-        System.out.print(a.val+" ");
-        display(a.left);
-        display(a.right);
-
-      }
+        System.out.print(root.right.left.val);
 
 
 
 
         
-    
+    }
     
 }
