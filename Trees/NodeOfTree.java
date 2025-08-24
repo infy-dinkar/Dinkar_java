@@ -32,6 +32,8 @@ public class NodeOfTree {
         System.out.println(x);
         int z=product(root);
         System.out.println(z);
+        int p=nonzeroproduct(root);
+        System.out.println(p);
     }    
 
       public static void display(Node a){
@@ -57,6 +59,21 @@ public class NodeOfTree {
         }
 
         return ((a.val)*product(a.left)*product(a.right));
+      }
+
+      public  static int productnz =1;
+ 
+      public static int nonzeroproduct(Node a){
+        if(a==null){
+            return 1;
+        }
+        int l=nonzeroproduct(a.left);
+        int r=nonzeroproduct(a.right);
+        if(a.val!=0){
+            productnz*=a.val;
+        }
+        return productnz;
+
       }
 
 
