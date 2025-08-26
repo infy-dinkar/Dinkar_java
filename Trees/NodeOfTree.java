@@ -34,6 +34,8 @@ public class NodeOfTree {
         System.out.println(z);
         int p=nonzeroproduct(root);
         System.out.println(p);
+        int no_of_levels=levelcount(root);
+        System.out.println(no_of_levels);
     }    
 
       public static void display(Node a){
@@ -74,6 +76,11 @@ public class NodeOfTree {
         }
         return productnz;
 
+      }
+      
+      public static int levelcount(Node a){
+        if(a==null) return 0;
+        return 1+ Math.max(levelcount(a.left),levelcount(a.right));
       }
 
 
