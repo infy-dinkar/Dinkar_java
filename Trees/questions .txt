@@ -4,3 +4,4 @@ Leetcode112-->dfs and minus karte jao
 Leetcode 404-->solution check
 Leetcode 104--->level concept use karo
 Leetcode110--->solution check
+Leetcode226--->SwappingConcept and check soultion
