@@ -3,3 +3,8 @@ Leetcode-1493
 Leetcode-498
 Leetcode-3195
 Leetcode-209
+Leetcode-503
+Leetcode-496
+StreamFirstNon-reating-gfg
+Leetcode-239
+Leetcode-226
