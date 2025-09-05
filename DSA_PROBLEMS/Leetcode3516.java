@@ -10,7 +10,7 @@ public class Leetcode3516 {
             return 2;
         }
 
-        return 0;
+        return ;
         
     }
 }
