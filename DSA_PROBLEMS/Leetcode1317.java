@@ -19,7 +19,7 @@ public class Leetcode1317 {
             }
             num /= 10;
         }
-        return true;
+        return flase;
     }
 }
 
