@@ -78,7 +78,7 @@ public class NodeOfTree {
 
       }
       
-      public static int levelcount(Node a){
+      public static   int levelcount(Node a){
         if(a==null) return 0;
         return 1+ Math.max(levelcount(a.left),levelcount(a.right));
       }
