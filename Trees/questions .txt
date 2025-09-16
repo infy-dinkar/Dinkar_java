@@ -5,5 +5,5 @@ Leetcode 404-->solution check
 Leetcode 104--->level concept use karo
 Leetcode110--->solution check
 Leetcode226--->SwappingConcept and check soultion
-Leetcode2749---->check bit count and derivative maths+solution on yt.
+Leetcode2749---->check bit count and derivative maths+solution on you tube.
 
