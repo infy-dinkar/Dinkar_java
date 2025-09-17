@@ -1,0 +1,8 @@
+leetcode3195-->POTD
+leetcode498--->POTD
+MaximumSubarrayOfSizeK GFG-->SlidingWindow
+Leetcode209-->SlidingWindow
+Leetcode-503-stacks
+Leetcode-496-stacks
+Leetcode-239-Queue
+Leetcode-226-Trees
