@@ -44,6 +44,16 @@ public class NodeOfTree {
         bfsltor(root);
         System.out.println();
         nthlevel(root,1,2);
+         System.out.println();
+
+        for(int i=1;i<4;i++){ 
+          // Here i<4 because we already know no of levels.
+           nthlevel(root,1,i);
+          //  this will make print level wise
+           System.out.println(); 
+
+
+        }
     }    
 
       public static void display(Node a){
