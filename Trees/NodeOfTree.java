@@ -1,4 +1,8 @@
 package Trees;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
 class Node{
     int val;
     Node left;
@@ -36,6 +40,7 @@ public class NodeOfTree {
         System.out.println(p);
         int no_of_levels=levelcount(root);
         System.out.println(no_of_levels);
+        bfsltor(root);
     }    
 
       public static void display(Node a){
@@ -81,6 +86,22 @@ public class NodeOfTree {
       public static   int levelcount(Node a){
         if(a==null) return 0;
         return 1+ Math.max(levelcount(a.left),levelcount(a.right));
+      }
+
+      public static void bfsltor(Node a){
+        Queue<Node> q = new LinkedList<>();
+        q.add(a);
+        while(q.size()!=0){
+          Node x=q.poll();
+          System.out.print(x.val+" ");
+          if(x.left!=null){
+            q.add(x.left);
+          }
+          if(x.right!=null){
+            q.add(x.right);
+          }
+        }
+
       }
 
 
