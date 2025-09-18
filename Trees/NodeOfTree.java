@@ -2,6 +2,7 @@ package Trees;
 
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.*;
 
 class Node{
     int val;
@@ -41,6 +42,8 @@ public class NodeOfTree {
         int no_of_levels=levelcount(root);
         System.out.println(no_of_levels);
         bfsltor(root);
+        System.out.println();
+        nthlevel(root,1,2);
     }    
 
       public static void display(Node a){
@@ -90,7 +93,7 @@ public class NodeOfTree {
 
       public static void bfsltor(Node a){
         Queue<Node> q = new LinkedList<>();
-        q.add(a);
+        if(a!=null)q.add(a);
         while(q.size()!=0){
           Node x=q.poll();
           System.out.print(x.val+" ");
@@ -103,6 +106,28 @@ public class NodeOfTree {
         }
 
       }
+      
+       
+      
+      public static void nthlevel(Node a, int level,int n){
+        // level=>0.
+        //  And n=level which we want to print.
+        if(a==null)return;
+        if(level==n)System.out.print(a.val+" ");
+        nthlevel(a.left, level+1,n);
+        nthlevel(a.right, level+1,n);
+       }
+
+      
+
+
+
+      
+
+
+    
+
+  
 
 
 
