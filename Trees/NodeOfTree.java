@@ -45,7 +45,6 @@ public class NodeOfTree {
         System.out.println();
         nthlevel(root,1,2);
          System.out.println();
-
         for(int i=1;i<4;i++){ 
           // Here i<4 because we already know no of levels.
            nthlevel(root,1,i);
@@ -54,6 +53,8 @@ public class NodeOfTree {
 
 
         }
+
+        bfslevelbylevel(root);
     }    
 
       public static void display(Node a){
@@ -113,6 +114,29 @@ public class NodeOfTree {
           if(x.right!=null){
             q.add(x.right);
           }
+        }
+
+      }
+
+      public static void bfslevelbylevel(Node a){
+        Queue<Node> q = new LinkedList<>();
+        if(a!=null)q.add(a);
+        while(q.size()!=0){
+          
+          int n=q.size();
+          for(int i=1;i<=n;i++){
+            Node x=q.poll();
+            System.out.print(x.val+" ");
+          if(x.left!=null){
+            q.add(x.left);
+          }
+          if(x.right!=null){
+            q.add(x.right);
+          }
+
+          }
+           System.out.println();
+          
         }
 
       }
