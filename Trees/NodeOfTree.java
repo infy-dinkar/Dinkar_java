@@ -55,6 +55,10 @@ public class NodeOfTree {
         }
 
         bfslevelbylevel(root);
+        boolean w=isBalanced(root);
+        System.out.println(w);
+
+
     }    
 
       public static void display(Node a){
@@ -150,6 +154,19 @@ public class NodeOfTree {
         if(level==n)System.out.print(a.val+" ");
         nthlevel(a.left, level+1,n);
         nthlevel(a.right, level+1,n);
+       }
+
+       public static boolean isBalanced(Node a){
+        if(a==null)return true;
+        // levelcount() is function to count level is created above.
+        int diff=Math.abs(levelcount(a.left)-levelcount(a.right));
+        if(diff>1) return false;
+        boolean lst=isBalanced(a.left);
+        if(lst==false)return false;
+        boolean rst=isBalanced(a.right);
+        if(rst==false) return false;
+        return true;
+
        }
 
       
