@@ -57,6 +57,8 @@ public class NodeOfTree {
         bfslevelbylevel(root);
         boolean w=isBalanced(root);
         System.out.println(w);
+       int diameterOfTree= diameter(root);
+       System.out.println(diameterOfTree);
 
 
     }    
@@ -167,6 +169,14 @@ public class NodeOfTree {
         if(rst==false) return false;
         return true;
 
+       }
+
+       public static int diameter(Node a){
+        if (a==null) return 0;
+        int dia=levelcount(a.left)+levelcount(a.right);
+        int ldia=diameter(a.left);
+        int rdia=diameter(a.right);
+        return Math.max(dia,Math.max(ldia,rdia));
        }
 
       
