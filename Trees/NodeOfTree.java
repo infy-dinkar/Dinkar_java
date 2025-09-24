@@ -174,9 +174,9 @@ public class NodeOfTree {
        public static int diameter(Node a){
         if (a==null) return 0;
         int dia=levelcount(a.left)+levelcount(a.right);
-        int ldia=diameter(a.left);
-        int rdia=diameter(a.right);
-        return Math.max(dia,Math.max(ldia,rdia));
+        int leftdia=diameter(a.left);
+        int rightdia=diameter(a.right);
+        return Math.max(dia,Math.max(leftdia,rightdia));
        }
 
       
