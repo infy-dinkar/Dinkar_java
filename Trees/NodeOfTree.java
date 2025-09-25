@@ -178,6 +178,44 @@ public class NodeOfTree {
         int rightdia=diameter(a.right);
         return Math.max(dia,Math.max(leftdia,rightdia));
        }
+         
+       // Path sum code is starting from here.
+
+       public static List<Integer> deepcopy(List<Integer> arr){
+        List<Integer> list=new ArrayList<>();
+        for(int ele:arr){
+          list.add(ele);
+        }
+        return list;
+
+       }
+
+       public static void helperforpathsum(Node a,int target,List<Integer> arr,List<List<Integer>> ans){
+        if(a==null) return;
+        if(a.left==null && a.right==null){
+          if(a.val==target){
+            arr.add(a.val);
+            ans.add(arr);
+          }
+
+        }
+        arr.add(a.val);
+        List<Integer> arr1=deepcopy(arr);
+        List<Integer> arr2=deepcopy(arr);
+        helperforpathsum(a.left, target-a.val, arr1, ans);
+        helperforpathsum(a.right, target-a.val, arr2, ans);
+      
+
+       }
+
+       public static List<List<Integer>> PathSum(Node a,int target){
+        List<Integer> arr=new ArrayList<>();
+        List<List<Integer>> ans=new ArrayList<>();
+        helperforpathsum(a,target,arr,ans);
+        return ans;
+       }
+
+      //  pathsum code ending here.
 
       
 
