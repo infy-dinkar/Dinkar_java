@@ -50,6 +50,7 @@ public class NodeOfTree {
            nthlevel(root,1,i);
           //  this will make print level wise
            System.out.println(); 
+           
 
 
         }

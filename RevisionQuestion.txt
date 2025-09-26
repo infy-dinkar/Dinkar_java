@@ -6,4 +6,4 @@ Leetcode-503-stacks
 Leetcode-496-stacks
 Leetcode-239-Queue
 Leetcode-226-Trees
-SreamFirst Non-Repating(Gfg)
+SreamFirst Non-Repating(Geeks for geeks)
