@@ -7,3 +7,4 @@ Leetcode-496-stacks
 Leetcode-239-Queue
 Leetcode-226-Trees
 SreamFirst Non-Repating(Geeks for geeks)
+Area=0.5​∣x1​(y2​−y3​)+x2​(y3​−y1​)+x3​(y1​−y2​)∣.
