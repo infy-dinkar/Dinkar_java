@@ -1,0 +1,3 @@
+Best case to search in BST is O(logn).
+Best case possible only in Balnced Binary Tree.
+Worst case is O(h).
