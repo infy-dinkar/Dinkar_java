@@ -1,3 +1,11 @@
 Best case to search in BST is O(logn).
 Best case possible only in Balnced Binary Tree.
 Worst case is O(h).
+
+If a recursive function uses a global (or class-level) variable to store results, 
+it can just update that variable in each call and doesn’t need to return anything, 
+because all calls share the same variable.
+
+But if the function doesn’t use a shared variable and instead needs to send
+ a value back from the deeper recursive calls, it must return the result, 
+ so the answer can travel back up the recursion chain.
